@@ -24,6 +24,21 @@ Por: Santiago Andrés Rocha
     localhost:4567/collatzsequence?value=13
     ```
 ### Remoto
+1. Inicializar la instancia de EC2 en AWS
+2. Acceder en el navegador a `ec2-54-166-217-163.compute-1.amazonaws.com` en el puerto `4567` indicando el valor al que queremos investigar con la Conjetura de Collatz `collatzsequence?value=<Número requerido>`:   
+    
+    Ejemplo:
+    ```
+    ec2-54-166-217-163.compute-1.amazonaws.com:4567/collatzsequence?value=13
+    ```
+
+    * Nota: Para hacer que AWS funcionase, fue necesario la configuración de los Puestos en Seguridad, instalar Docker en la instancia de EC2 y bajar la imágen de:
+    ```
+    docker push sanrocks12/parcial2-arep:latest
+    ```
+
+    ![Alt text](images/puertos.png)
+    ![Alt text](images/dockerInstall.png)
 
 ## Imagen en DockerHub
 ![Alt text](images/dockerImage.png)
@@ -43,6 +58,9 @@ Por: Santiago Andrés Rocha
 ![String](images/notNum.png)
 
 ## Evidencia de Funcionamiento Remoto
+
+ * Imagen de Docker en AWS   
+ ![Alt text](images/dockeImageAWS.png)
 
  * Números Negativos
  * Cero
