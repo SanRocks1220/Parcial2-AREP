@@ -60,10 +60,20 @@ Por: Santiago Andrés Rocha
 ## Evidencia de Funcionamiento Remoto
 
  * Imagen de Docker en AWS   
- ![Alt text](images/dockeImageAWS.png)
+ ![Alt text](images/dockerImageAWS.png)
 
- * Números Negativos
- * Cero
- * Números Positivos
- * String
+ * Servidor corriendo la Imagen
+ ![Alt text](images/workingAWS.png)
+
+ * Números Negativos   
+ ![Alt text](images/negNumAWS.png)
+
+ * Cero   
+ ![Alt text](images/ceroNumAWS.png)
+
+ * Números Positivos   
+ ![Alt text](images/posNumAWS.png)
+
+ * String   
+ ![Alt text](images/notNumAWS.png)
 
