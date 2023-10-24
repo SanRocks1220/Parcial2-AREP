@@ -17,25 +17,29 @@ Por: Santiago Andrés Rocha
     mvn exec:java
     java -cp "target/classes/;target/dependency/*" edu.eci.arep.ConjeturaCollatz
     ```
-5. Acceder en el navegador a `localhost` en el puerto `4567` indicando el valor al que queremos investigar con la Conjetura de Collatz `collatzsequence?value=<Número requerido>`
+5. Acceder en el navegador a `localhost` en el puerto `4567` indicando el valor al que queremos investigar con la Conjetura de Collatz `collatzsequence?value=<Número requerido>`:   
+    
     Ejemplo:
     ```
     localhost:4567/collatzsequence?value=13
     ```
 ### Remoto
 
+## Imagen en DockerHub
+![Alt text](images/dockerImage.png)
+![Alt text](images/dockerHubImage.png)
 ## Evidencia de Funcionamiento Local
 
- *  Números Negativos
+ *  Números Negativos   
  ![Números Negativos](images/negNum.png)
 
- * Cero
+ * Cero   
 ![Cero](images/ceroNum.png)
 
- * Números Positivos
+ * Números Positivos   
 ![Números Positivos](images/posNum.png)
 
- * String
+ * String   
 ![String](images/notNum.png)
 
 ## Evidencia de Funcionamiento Remoto
