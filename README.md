@@ -77,3 +77,6 @@ Por: Santiago Andrés Rocha
  * String   
  ![Alt text](images/notNumAWS.png)
 
+
+## Link al video comprobando funcionamiento:
+* [Video de Funcionamiento](https://youtu.be/HFpjm0Rd0i8)
